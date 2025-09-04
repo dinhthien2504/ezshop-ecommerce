@@ -1,0 +1,104 @@
+.auth__content {
+  max-width: 430px;
+}
+
+.auth__img {
+  max-width: 500px;
+}
+
+.auth__input {
+  border: none;
+  border-bottom: 2px solid #d9d9d9;
+  transition: border-bottom 0.3s ease;
+  border-radius: 0;
+  background-color: transparent;
+  position: relative;
+}
+
+.auth__input input,
+.auth__input span {
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.auth__input label {
+  transition: all 0.4s ease;
+  font-size: 18px !important;   
+  font-weight: 500;
+}
+
+.auth__input i {
+  color: #d9d9d9 !important;
+  transition: all 0.5s ease;
+}
+
+.auth__input:focus-within i {
+  color: var(--main-color) !important;
+}
+
+.auth__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.auth__input::before,
+.auth__input::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  width: 0%;
+  background: var(--main-color);
+  transition: width 0.4s;
+}
+
+.auth__input::before {
+  right: 50%;
+}
+
+.auth__input::after {
+  left: 50%;
+}
+
+.auth__input:focus-within::before,
+.auth__input:focus-within::after {
+  width: 50%;
+}
+
+.auth__icon {
+  border: 1px solid #ccc;
+  border-radius: 20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+  width: 40px;
+  height: 40px;
+}
+
+.auth__icon:nth-child(1) i {
+  color: #db4437;
+}
+
+.auth__icon:nth-child(2) i {
+  color: #1877f2;
+}
+
+.auth__icon:nth-child(3) i {
+  color: #333;
+}
+
+.auth__icon:nth-child(4) i {
+  color: #0077b5;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  cursor: pointer;
+  color: #999;
+  z-index: 10;
+}

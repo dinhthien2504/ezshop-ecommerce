@@ -1,0 +1,41 @@
+.user_proflie__text_h6{
+    font-size: 14px;
+}
+.user_proflie__icon{
+    font-size: 24px;
+}
+.user_proflie__outline {
+    border: 1px solid #D52220;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color: #D52220;
+}
+
+.user_proflie__outline:hover {
+    background-color: #D52220;
+    color: #ffffff;
+}
+.user_proflie__ms{
+    margin-left: 22px;
+    font-size: 14px;
+}
+.user_proflie__question{
+    margin-right: 22px;
+}
+.custom-file-input[type="file"] {
+    color: transparent;
+}
+.user_proflie__bg{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.ms-38{
+    margin-left: 38px;
+}
+
+@media (max-width: 576px) {
+    .user_proflie__rg {
+        display: none !important;
+    }
+}

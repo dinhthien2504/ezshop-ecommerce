@@ -1,0 +1,7 @@
+.img-config {
+  object-fit: cover;
+  width: 200px;
+  height: 70px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}

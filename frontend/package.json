@@ -1,0 +1,40 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@unhead/vue": "^2.0.11",
+    "@vueform/slider": "^2.1.10",
+    "@vueup/vue-quill": "^1.2.0",
+    "apexcharts": "^5.3.1",
+    "axios": "^1.8.4",
+    "bootstrap": "^5.3.5",
+    "bootstrap-icons": "^1.11.3",
+    "laravel-echo": "^2.1.6",
+    "material-icons": "^1.13.14",
+    "mitt": "^3.0.1",
+    "nprogress": "^0.2.0",
+    "pinia": "^3.0.2",
+    "pusher-js": "^8.4.0",
+    "remixicon": "^4.6.0",
+    "speakingurl": "^14.0.1",
+    "vue": "^3.5.13",
+    "vue-quill": "^1.5.1",
+    "vue-recaptcha": "^3.0.0-alpha.6",
+    "vue-router": "^4.5.0",
+    "vue3-apexcharts": "^1.8.0",
+    "vue3-quill": "^0.3.1",
+    "vue3-recaptcha-v2": "^2.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^6.2.6"
+  }
+}

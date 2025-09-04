@@ -1,0 +1,62 @@
+.product-img {
+  width: 500px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.thumb-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.thumb-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.thumb-img {
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+  margin: 0 5px;
+  flex-shrink: 0;
+}
+
+.thumb-img.active {
+  border-color: red;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.nav-btn.left {
+  left: 0;
+}
+
+.nav-btn.right {
+  right: 0;
+}
+
+.star {
+  font-size: 28px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star.active {
+  color: red;
+}
+

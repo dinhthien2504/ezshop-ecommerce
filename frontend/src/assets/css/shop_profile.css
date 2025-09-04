@@ -1,0 +1,20 @@
+.shop-banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.profile-avatar {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+    .profile-avatar {
+        width: 140px;
+        height: 140px;
+    }
+}
